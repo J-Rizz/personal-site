@@ -180,6 +180,12 @@ a p:hover {
 	padding: 0.6rem 1.2rem 0.6rem 1.2rem;
 	margin: 1rem;
 	text-align: center;
+	width: 100px;
+	display: inline-block;
+}
+
+a .button:hover {
+	background-color: hsl(205, 30%, 40%);
 }
 
 /* About page - intro paragraph */
