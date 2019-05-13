@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="306" height="202" viewBox="0 0 306 202">
+  <g id="Group_297" data-name="Group 297" transform="translate(-1473 -2417)">
+    <g id="Group_256" data-name="Group 256" transform="translate(1504 2428.83)">
+      <g id="Group_255" data-name="Group 255" transform="translate(52.048 29.02)">
+        <path id="Path_487" data-name="Path 487" d="M121.173,147.832V142.7c11.56-1.472,13.212-2.932,10.819-10.088s-6.055-17.054-10.088-28.243H82.83c-2.932,8.257-5.685,15.953-8.066,23.659-4.033,11.56-2.382,13.391,11.369,14.672v5.134H46.33V142.7c11.56-1.651,14.122-2.752,20.548-18.9l37.972-96.3,5.685-1.651c11.369,31.546,23.659,66.406,35.4,98.323C151.8,139.945,154.19,141.6,166.11,142.7v5.134ZM103.2,49.7h-.371c-5.864,15.773-11.74,31.737-17.245,46.78H119.33Z" transform="translate(-46.33 -25.85)" fill="#d16262"/>
+      </g>
+      <line id="Line_44" data-name="Line 44" x1="231.404" y2="0.056" transform="translate(0 150.979)" fill="none" stroke="#d16262" stroke-miterlimit="10" stroke-width="1"/>
+      <line id="Line_45" data-name="Line 45" x1="231.404" y2="0.056" transform="translate(5.774 145.418)" fill="none" stroke="#d16262" stroke-miterlimit="10" stroke-width="1"/>
+      <line id="Line_46" data-name="Line 46" x1="231.404" y2="0.045" transform="translate(12.144 99.65)" fill="none" stroke="#d16262" stroke-miterlimit="10" stroke-width="1"/>
+      <circle id="Ellipse_14" data-name="Ellipse 14" cx="12.403" cy="12.403" r="12.403" transform="translate(43.443 120.658)" fill="none" stroke="#d16262" stroke-miterlimit="10" stroke-width="1"/>
+      <line id="Line_47" data-name="Line 47" x1="56.969" y1="157.797" transform="translate(94.233 13.123)" fill="none" stroke="#d16262" stroke-miterlimit="10" stroke-width="1"/>
+      <line id="Line_48" data-name="Line 48" x1="64.08" y1="177.524" transform="translate(105.479 0.17)" fill="none" stroke="#d16262" stroke-miterlimit="10" stroke-width="1"/>
+    </g>
+    <rect id="Rectangle_896" data-name="Rectangle 896" width="306" height="202" transform="translate(1473 2417)" fill="none"/>
+  </g>
+</svg>
