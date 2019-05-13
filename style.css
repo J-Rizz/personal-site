@@ -1,0 +1,493 @@
+* {
+margin: 0;
+padding: 0;
+}
+
+a:link, a:visited, a:hover, a:active {
+text-decoration: none;
+}
+
+html {
+	font-size: 16px;
+}
+
+html, body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+h1 {
+	font-family: "objektiv-mk1", "Open Sans", sans-serif;
+	color: #222222;
+	font-size: 3rem;
+	font-weight: 700;
+}
+
+h2 {
+	font-family: "objektiv-mk1", "Open Sans", sans-serif;
+	color: #222222;
+	font-size: 1.2rem;
+	font-weight: 500;
+}
+
+h3 {
+	font-family: "objektiv-mk1", sans-serif;
+	font-weight: 300;
+	font-size: 1.1rem;
+	color: 222222;
+}
+
+p {
+	font-family: "objektiv-mk1", sans-serif;
+	color: #222222;
+	font-size: 0.9rem;
+	font-weight: 200;
+	line-height: 1.7;
+	margin-top: 1.2rem;
+}
+
+a {
+	font-family: "objektiv-mk1", sans-serif;
+	color: #222222;
+	font-size: 0.9rem;
+	font-weight: 200;
+}
+
+a:hover {
+	opacity: 0.5;
+}
+
+/* Fixed navigation panel */
+
+.nav-panel {
+	display: block;
+	position: fixed;
+	min-width: 380px;
+	width: 40%;
+	background-size: cover;
+	height: 100%;
+	box-shadow: 2px 2px 5px 0 rgba(0,0,0,.125);
+	z-index: 1;
+}
+
+.logo {
+	position: absolute;
+	top: 2rem;
+	left: 2rem;
+	font-size: 1.2rem;
+	font-weight: 500;
+}
+
+.hero-section {
+	position: absolute;
+	top: 50%;
+	left: 2rem;
+}
+
+
+.hero-pic {
+	height: 6.5rem;
+}
+
+.nav-section {
+	position: absolute;
+	bottom: 2rem;
+	left: 2rem;
+}
+
+.nav-heading {
+	display: inline-block;
+	margin-right: 1.2rem;
+}
+
+/* Projects on homepage */
+
+.projects-homepage {
+	position: absolute;
+	left: 40%;
+	width: 60%;
+}
+
+.project-pic-section {
+	background-color: #F8F8F8;
+}
+
+.project-pic {
+	width: 90%;
+	padding-right: 5%;
+	padding-left: 5%;
+}
+
+.profile-pic {
+	width: 100%;
+}
+
+.project-text {
+	min-height: 200px;
+}
+
+.display-inline-block {
+	display: inline-block;
+}
+
+.display-flex {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: left;
+}
+
+.display-inline {
+	display: inline;
+}
+
+.float-right {
+	float: right;
+}
+
+
+/* About me page */
+
+.about-pic {
+	width: 40%;
+	min-width: 240px;
+}
+
+.min-height-about {
+	min-height: 220px;
+}
+
+.min-width-about {
+	min-width: 280px;
+}
+
+.width-about {
+	width: 50%;
+}
+
+.text-align-right {
+	text-align: right;
+}
+
+/* Project page */
+
+.project-intro-text {
+	width: 35%;
+	float: right;
+}
+
+.project-page-pic {
+	width: 45%;
+	min-width: 300px;
+	margin-top: 2rem;
+}
+
+.project-text-pic {
+	width: 45%;
+	min-width: 300px;
+	margin-top: 2rem;
+}
+
+.project-page-top {
+	min-height: 300px;
+}
+
+.project-page-subtitle {
+	width: 80%;
+	max-width: 900px;
+	padding-top: 7rem;
+	margin: auto;
+	text-align: center;
+	font-size: 1.1rem;
+}
+
+.project-logo-pic {
+	position: relative;
+	width: 7rem;
+	height: 7rem;
+	bottom: -3.5rem;
+	margin: auto;
+}
+
+.project-table {
+	width: 25%;
+	min-width: 250px;
+	float: right;
+	clear: right;
+	margin: 2rem;
+	border-spacing: 0;
+}
+
+.project-page-heading {
+	width: 60%;
+	max-width: 900px;
+	padding-top: 7rem;
+	margin: auto;
+	text-align: center;
+}
+
+.project-page-paragraph {
+	width: 60%;
+	max-width: 900px;
+	margin: auto;
+	text-align: center;
+	padding-bottom: 3rem;
+}
+
+th, td {
+	padding-top: 0.8rem;
+	padding-bottom: 0.8rem;
+	font-family: "objektiv-mk1", sans-serif;
+	font-size: 0.7rem;
+	border-bottom: 1px solid white;
+}
+
+th {
+	text-align: left;
+	font-weight: 500;
+}
+
+td {
+	text-align: right;
+	font-weight: 200;
+}
+
+.no-border {
+	border-bottom: none;
+}
+
+/* General */
+
+.inline-block {
+	display: inline-block;
+}
+
+.display-block {
+	display: block;
+}
+
+.float-right {
+	float: right;
+}
+
+.padding-2rem-sides {
+	padding-left: 2rem;
+	padding-right: 2rem;
+}
+
+.padding-2rem-top {
+	padding-top: 2rem;
+}
+
+.padding-2rem-bottom {
+	padding-bottom: 2rem;
+}
+
+.weight-medium {
+	font-weight: 400;
+}
+
+.white {
+	color: #FFFFFF;
+}
+
+.red-bckg {
+	background-color: #D16262;
+}
+
+.dark-red-bckg {
+	background-color: #A74E55;
+}
+
+.blue-bckg {
+	background-color: #646E80;
+}
+
+.orange-bckg {
+	background-color: #D6854A;
+}
+
+.turquoise-bckg {
+	background-color: #468A8C;
+}
+
+.purple-bckg {
+	background-color: #80627D;
+}
+
+.align-center {
+	position: relative;
+	text-align: center;
+}
+
+.line {
+	width: 80%;
+	margin: auto;
+	height: 1px;
+	background: hsl(0, 0%, 80%)
+}
+
+.button {
+	border: 1px solid;
+	border-radius: 30px;
+	border-color: #333333;
+	padding: 0.6rem 1.2rem 0.6rem 1.2rem;
+	text-align: center;
+
+	width: 210px;
+	margin: 0 auto;
+	margin-top: 20px;
+	
+	font-family: "objektiv-mk1", sans-serif;
+	font-size: 90%;
+	font-weight: 300;
+}
+
+.exit-button {
+	width: 3rem;
+	position: fixed;
+	right: 2rem;
+	top: 2rem;
+}
+
+a .button:hover {
+	background-color: #333333;
+	color: #FAFAF8;
+}
+
+.margin-top {
+	margin-top: 1.2rem;
+}
+
+.margin-top-small {
+	margin-top: 0.8rem;
+}
+
+.margin-auto {
+	margin: auto;
+}
+
+/* Responsive */
+
+
+@media only screen and (min-width: 1600px) {
+
+	html {
+	font-size: 20px;
+}
+	.logo {
+	height: 150px;
+	padding-bottom: 10px;
+}
+
+}
+
+
+@media only screen and (max-width: 960px) {
+
+	html {
+	font-size: 14px;
+}
+
+.nav-panel {
+	height: 13rem;
+	display: inline-block;
+	position: relative;
+	width: 100%;
+}
+
+.projects-homepage {
+	position: relative;
+	left: 0%;
+	width: 100%;
+}
+
+.project-pic {
+	width: 90%;
+	padding-right: 5%;
+	padding-left: 5%;
+}
+
+.nav-section {
+	position: relative;
+	float: right;
+	top: 0.9rem;
+	right: 1rem;
+	padding-right: 2.6rem;
+
+}
+
+.hero-section {
+	position: absolute;
+	top: 5rem;
+}
+
+.width-about {
+	width: 80%;
+}
+
+.project-intro-text {
+	width: 80%;
+	float: left;
+	text-align: left;
+}
+
+.project-table {
+	float: left;
+	clear: left;
+}
+
+.project-page-pic {
+	width: 80%;
+	min-width: none;
+	margin-top: none;
+}
+
+.project-page-heading {
+	width: 80%;
+}
+
+.project-page-paragraph {
+	width: 80%;
+}
+
+
+@media only screen and (max-device-width: 600px) {
+
+  	html {
+	font-size: 14px;
+}
+	.logo {
+	height: 230px;
+	padding-bottom: 20px;
+}
+
+.nav-panel {
+	height: 15rem;
+	display: inline-block;
+	position: relative;
+	width: 100%;
+}
+
+.nav-section {
+	position: relative;
+	float: left;
+	clear: left;
+	top: 3rem;
+	right: 1rem;
+	padding-right: 2.6rem;
+
+}
+
+.hero-pic {
+	margin-top: 2rem;
+}
+
+
+}
+
+
+}
